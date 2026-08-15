@@ -1,0 +1,20 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "use-as-you-wish"
+version = "0.1.0"
+description = "LangChain-compatible Anthropic Claude Code LLM wrapper"
+readme = { file = "readme", content-type = "text/plain" }
+license = "MIT"
+license-files = ["LICENSE"]
+requires-python = ">=3.11"
+dependencies = [
+    "requests==2.34.2",
+    "langchain-core==1.5.4",
+    "pydantic==2.13.4",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/use_as_you_wish"]
