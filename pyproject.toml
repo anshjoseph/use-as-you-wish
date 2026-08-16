@@ -6,7 +6,7 @@ build-backend = "hatchling.build"
 name = "use-as-you-wish"
 version = "0.1.0"
 description = "LangChain-compatible Anthropic Claude Code LLM wrapper"
-readme = { file = "readme", content-type = "text/plain" }
+readme = { file = "Readme.md", content-type = "text/plain" }
 license = "MIT"
 license-files = ["LICENSE"]
 requires-python = ">=3.11"
